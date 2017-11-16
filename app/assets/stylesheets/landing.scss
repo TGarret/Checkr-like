@@ -1,3 +1,133 @@
-// Place all the styles related to the Landing controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	background: #6495ED;
+}
+
+
+/*------- Header -------- */
+
+header{
+	font-family:"proxima-nova",sans-serif;
+}
+
+.header_infos{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+
+.header_infos a{
+	padding-right: 20px;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.header_infos a:hover {color: rgba(255,255,255,0.5)}
+
+#header_checkr {
+	display: flex;
+	width: 100%;
+	margin-left: 50px;
+	margin-top: 20px;
+	justify-content: space-between;
+	font-size: 100%;
+}
+
+.logo_checkr{
+	width: 120px;
+	height: 40px;
+}
+
+.dropbtn {
+	color: white;
+	padding: 16px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+.header_dropdown {
+
+	display: flex;
+}
+
+.dropdown_content1 {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 4px 8px 0px rgba (0,0,0,0.25);
+	z-index: 1;
+}
+
+.dropdown_content1 a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown_content1 a:hover {color: #3F7A}
+
+
+.dropdown_content2 {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 4px 8px 0px rgba (0,0,0,0.25);
+	z-index: 1;
+}
+
+.dropdown_content2 a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown_content2 a:hover {color: #3F7A}
+
+.dropdown_content3 {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 4px 8px 0px rgba (0,0,0,0.25);
+	z-index: 1;
+}
+
+.dropdown_content3 a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown_content3 a:hover {color: #3F7A}
+
+
+.header_dropdown:hover .dropdown_content1 {
+	display: block;
+}
+
+.header_dropdown:hover .dropdown_content2 {
+	display: block;
+}
+
+.header_dropdown:hover .dropdown_content3 {
+	display: block;
+}
+
+.header_dropdown:hover .dropbtn {
+	color: grey ;
+}
+
+#header_droite {
+	display: flex;
+	justify-content: flex-end;
+	background-color: red;
+
+}
